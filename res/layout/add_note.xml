@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" android:text="Add Note" android:layout_margin="10dp" android:padding="5dp" android:textSize="20dp"/>
+<EditText android:layout_height="wrap_content" android:id="@+id/newNoteContent" android:lines="5" android:layout_width="fill_parent" android:layout_marginRight="10dp" android:layout_marginLeft="10dp" android:layout_marginBottom="10dp" android:layout_marginTop="10dp"></EditText>
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content"><RelativeLayout android:id="@+id/RelativeLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:padding="10dp"><CheckBox android:layout_height="wrap_content" android:text="Private" android:checked="true" android:id="@+id/isPrivate" android:layout_width="wrap_content"></CheckBox><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:text="Add Note" android:id="@+id/addNoteBtn"></Button></RelativeLayout>
+</LinearLayout>
+
+
+</LinearLayout>
